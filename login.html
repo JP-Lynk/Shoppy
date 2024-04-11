@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Box icons -->
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+  />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"
+    />
+    <!-- Custom StyleSheet -->
+    <link rel="stylesheet" href="./css/styles.css" />
+    <title>Login</title>
+  </head>
+  <body>
+    <!-- Navigation -->
+    <div class="navigation">
+      <div class="nav-center container d-flex">
+        <a href="index.html" class="logo"><h1>JP_LYNK</h1></a>
+
+        <ul class="nav-list d-flex">
+          <li class="nav-item">
+            <a href="index.html" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="product.html" class="nav-link">Shop</a>
+          </li>
+          <li class="nav-item">
+            <a href="#terms" class="nav-link">Terms</a>
+          </li>
+          <li class="nav-item">
+            <a href="#about" class="nav-link">About</a>
+          </li>
+          <li class="nav-item">
+            <a href="#contact" class="nav-link">Contact</a>
+          </li>
+          <li class="icons d-flex">
+            <a href="login.html" class="icon">
+              <i class="bx bx-user"></i>
+            </a>
+            <div class="icon">
+              <i class="bx bx-search"></i>
+            </div>
+            <div class="icon">
+              <i class="bx bx-heart"></i>
+              <span class="d-flex">0</span>
+            </div>
+            <a href="cart.html" class="icon">
+              <i class="bx bx-cart"></i>
+              <span class="d-flex">0</span>
+            </a>
+          </li>
+        </ul>
+
+        <div class="icons d-flex">
+          <a href="login.html" class="icon">
+            <i class="bx bx-user"></i>
+          </a>
+          <div class="icon">
+            <i class="bx bx-search"></i>
+          </div>
+          <div class="icon">
+            <i class="bx bx-heart"></i>
+            <span class="d-flex">4</span>
+          </div>
+          <a href="cart.html" class="icon">
+            <i class="bx bx-cart"></i>
+            <span class="d-flex">9</span>
+          </a>
+        </div>
+
+        <div class="hamburger">
+          <i class="bx bx-menu-alt-left"></i>
+        </div>
+      </div>
+    </div>
+    <!-- Login -->
+    <div class="container">
+      <div class="login-form">
+        <form action="" id="formValidation">
+          <h1>Login</h1>
+          <p>
+            Already have an account? Login in or
+            <a href="signup.html">Sign Up</a>
+          </p>
+
+          <label for="email">Email</label>
+          <input type="text" placeholder="Enter Email" name="email" required />
+
+          <label for="password">Password</label>
+          <input type="password" placeholder="Enter Password" name="password" required/>
+
+          <label>
+            <input type="checkbox" checked="checked" name="remember"
+              style="margin-bottom: 15px"
+            />
+            Remember me
+          </label>
+
+          <p>
+            By creating an account you agree to our
+            <a href="#">Terms & Privacy</a>.
+          </p>
+
+          <div class="buttons">
+            <button type="button" class="cancelbtn">Cancel</button>
+            <a href="index.html"><button type="submit" class="signupbtn">Login</button></a>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer_page">
+      <div class="footer_left">
+        <h2><i class="fa-solid fa-scissors" style="color: #ffffff"></i>tyle</h2>
+        <div class="content_p">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit
+          et architecto error, fuga natus consectetur illum nihil, rerum quas
+          eaque necessitatibus nam modi laudantium odio repellat, quasi
+          quibusdam eligendi vitae?
+        </div>
+      </div>
+        <div class="office">
+          <h3>
+            Office
+            <div class="underline"><span></span></div>
+          </h3>
+          <p>Name: JP_LYNK</p>
+          <p>Job: student</p>
+          <p>Academic level: collegue</p>
+          <p>School: Btec international collegue</p>
+          <br />
+          <p id="email">Email: ngonguyennhatlinh52@gmail.com</p>
+          <br />
+          <p>Phone number: +8457508900</p>
+        </div>
+        <div class="links">
+          <h3>
+            Links
+            <div class="underline"><span></span></div>
+          </h3>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About us</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Features</a></li>
+            <li><a href="#">Contacts</a></li>
+          </ul>
+        </div>
+      <div class="footer_right">
+        <h3>
+          Newsletter
+          <div class="underline ft_right"><span></span></div>
+        </h3>
+        <div class="input_email">
+          <span
+            ><i class="fa-regular fa-envelope" style="color: #ffffff"></i
+          ></span>
+          <span><input type="email" placeholder="Input your Email ID" /></span>
+          <span
+            ><button type="submit">
+              <i
+                class="fa-solid fa-arrow-right"
+                style="color: #ffffff"
+              ></i></button
+          ></span>
+        </div>
+        <div class="infor">
+          <i class="fa-brands fa-facebook" style="color: #000"></i>
+          <i class="fa-brands fa-facebook-messenger" style="color: #000000"></i>
+          <i class="fa-brands fa-instagram" style="color: #000"></i>
+          <i class="fa-brands fa-twitter" style="color: #000"></i>
+        </div>
+      </div>
+    </div>
+
+    <!-- Jquery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.5/jquery.validate.min.js"></script>
+    <!-- Custom Script -->
+    <script src="./js/index.js"></script>
+    <script type="text/javascript" src="./js/validation.js"></script>
+    scrip
+  </body>
+</html>
